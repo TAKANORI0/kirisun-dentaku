@@ -1,5 +1,5 @@
-/* 配管切寸電卓 offline cache, version 3ed81ea283 */
-var CACHE = "kirisun-3ed81ea283";
+/* 配管切寸電卓 offline cache, version cba7730f48 */
+var CACHE = "kirisun-cba7730f48";
 var FILES = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "apple-touch-icon.png"];
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(FILES); }).then(function () { return self.skipWaiting(); }));
